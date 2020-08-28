@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+
+}
+html{
+    background-color:black;
+}
+.carte{
+    background-color:#f5f5dc;
+    width:300px;
+    margin:20px;
+}
+.carte-image{
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+
+}
+.contenu-carte{
+    padding:20px;
+}
+
+.carte .deg-dustin{
+    background-image:linear-gradient(to bottom, #e8f5ff, #45b2ff);
+}
+.carte .deg-lucas{
+    background-image:linear-gradient(to bottom, #ffa76a, #ff4431);
+}
+.carte .deg-onze{
+    background-image:linear-gradient(to bottom, #9a8478, #1e130c);
+}
+.carte .deg-mike{
+    background-image:linear-gradient(to bottom, #072239, #07d173);
+}
